@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+/// 首页.
 @interface ViewController : UIViewController
 
 
