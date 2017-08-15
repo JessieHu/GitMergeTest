@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "Person.h"
+
 @interface ViewController ()
 
 @end
@@ -18,6 +20,12 @@
     [super viewDidLoad];
     
     NSLog(@"随便写写");
+    
+    Person *person = [[Person alloc] init];
+    person.name  = @"Tom";
+    person.age   = 12;
+    person.hobby = @"Eating and Sleeping";
+    NSLog(@"%@ is %zi years old, he likes %@", person.name, person.age, person.hobby);
 }
 
 
