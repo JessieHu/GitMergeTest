@@ -14,6 +14,8 @@
 		406B8DCF1F428014003523CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406B8DCE1F428014003523CE /* Assets.xcassets */; };
 		406B8DD21F428014003523CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406B8DD01F428014003523CE /* LaunchScreen.storyboard */; };
 		406B8DDB1F428242003523CE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 406B8DDA1F428242003523CE /* Person.m */; };
+		40BA07AA1F4682A000D81D4A /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BA07A91F4682A000D81D4A /* ListViewController.m */; };
+		40BA07AD1F46894100D81D4A /* PopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BA07AC1F46894100D81D4A /* PopoverBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		406B8DD31F428014003523CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406B8DD91F428242003523CE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		406B8DDA1F428242003523CE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		40BA07A81F4682A000D81D4A /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		40BA07A91F4682A000D81D4A /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		40BA07AB1F46894100D81D4A /* PopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverBackgroundView.h; sourceTree = "<group>"; };
+		40BA07AC1F46894100D81D4A /* PopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 				406B8DC61F428014003523CE /* AppDelegate.m */,
 				406B8DC81F428014003523CE /* ViewController.h */,
 				406B8DC91F428014003523CE /* ViewController.m */,
+				40BA07A81F4682A000D81D4A /* ListViewController.h */,
+				40BA07A91F4682A000D81D4A /* ListViewController.m */,
+				40BA07AB1F46894100D81D4A /* PopoverBackgroundView.h */,
+				40BA07AC1F46894100D81D4A /* PopoverBackgroundView.m */,
 				406B8DD91F428242003523CE /* Person.h */,
 				406B8DDA1F428242003523CE /* Person.m */,
 				406B8DCB1F428014003523CE /* Main.storyboard */,
@@ -156,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BA07AD1F46894100D81D4A /* PopoverBackgroundView.m in Sources */,
+				40BA07AA1F4682A000D81D4A /* ListViewController.m in Sources */,
 				406B8DCA1F428014003523CE /* ViewController.m in Sources */,
 				406B8DC71F428014003523CE /* AppDelegate.m in Sources */,
 				406B8DDB1F428242003523CE /* Person.m in Sources */,
